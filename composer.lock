@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a27fbe2ab3ad57a7a673563ba2899a15",
+    "content-hash": "04672592146af4518662f6cc9f5068eb",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -209,7 +209,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.0.0",
+            "version": "v6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -520,6 +520,55 @@
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
             "time": "2019-09-03T13:35:30+00:00"
+        },
+        {
+            "name": "illuminate/view",
+            "version": "v6.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/view.git",
+                "reference": "554481902ad5e10662328900988b2f902ebbfefe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/554481902ad5e10662328900988b2f902ebbfefe",
+                "reference": "554481902ad5e10662328900988b2f902ebbfefe",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/container": "^6.0",
+                "illuminate/contracts": "^6.0",
+                "illuminate/events": "^6.0",
+                "illuminate/filesystem": "^6.0",
+                "illuminate/support": "^6.0",
+                "php": "^7.2",
+                "symfony/debug": "^4.3.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\View\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate View package.",
+            "homepage": "https://laravel.com",
+            "time": "2019-09-03T12:53:11+00:00"
         },
         {
             "name": "nesbot/carbon",
