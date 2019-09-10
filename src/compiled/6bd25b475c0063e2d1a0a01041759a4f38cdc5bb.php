@@ -1,5 +1,6 @@
 <?php $__env->startSection('content'); ?>
 
+    <h1> TEST</h1>
     <h1><?php echo e($title); ?></h1>
     <p><?php echo e($text); ?></p>
 
