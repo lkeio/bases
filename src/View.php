@@ -16,8 +16,8 @@ class View
 {
     public static function make(string $page, array $data = [])
     {
-        $pathsToTemplates = [__DIR__ . '/views'];
-        $pathToCompiledTemplates = __DIR__ . '/compiled';
+        $pathsToTemplates = [getcwd() . '/views'];
+        $pathToCompiledTemplates = getcwd() . '/compiled';
         
         $filesystem = new Filesystem;
         $eventDispatcher = new Dispatcher(new Container);
